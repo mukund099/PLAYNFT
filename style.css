@@ -415,17 +415,19 @@
   }
 
   .logos {
+    position: relative;
     margin-top: 70px;
     display: flex;
     align-items: center;
     padding: 5px 5px;
-    justify-content: space-around;
-    width: 100%;
+    width: 1000%;
     background-color: #733ad563;
+    z-index: 99;
   }
 
   .logos img {
     width: 150px;
+    margin: 0 35px;
   }
 
   .multidivs {
